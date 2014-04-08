@@ -1,0 +1,9 @@
+<% if User.current.allowed_to?(:view_merchandises, @project) %>
+
+    <h4><%= l(:label_related_merchandises) %></h4>
+    <% Merchandise.where(:issue_id => params[:id]).each do |merchandise| %>
+        <%= link_to h(merchandise.name), {:controller => "merchandises", :action => "show", :project_id => @project, :id => merchandise.id} %><br>
+    <% end %>
+
+    <h4></h4>
+<% end %>

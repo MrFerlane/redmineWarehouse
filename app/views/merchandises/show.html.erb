@@ -1,0 +1,23 @@
+<h2><%= link_to l(:label_merchandises_plural), {:controller => "merchandises", :action => "index", :project_id => @project} %> &#187; <%= l(:label_merchandise_show) %></h2>
+
+<table class="list">
+    <thead>
+    <tr>
+        <th><%= l(:field_merchandise_name) %></th>
+        <th><%= l(:field_merchandise_value) %></th>
+        <th><%= l(:field_merchandise_count) %></th>
+        <th><%= l(:field_merchandise_issue_id) %></th>
+        <th><%= l(:field_created_on) %></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="merchandise_name"><%= link_to h(@merchandise.name), {:controller => "merchandises", :action => "edit", :project_id => @project, :id => @merchandise.id} %></td>
+        <td class="merchandise_value" align="center"><%= h(@merchandise.value) %></td>
+        <td class="merchandise_count" align="center"><%= h(@merchandise.count) %></td>
+        <td class="merchandise_issue_id" align="center"><%= h(@merchandise.issue_id) %></td>
+        <td class="merchandise_created_on" align="center"><%= format_time(@merchandise.created_on) %></td>
+    </tr>
+    </tbody>
+</table>
+

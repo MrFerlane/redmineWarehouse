@@ -1,0 +1,177 @@
+<html>
+<head>
+</head>
+<body>
+<style>
+
+
+    table {
+        width: 100%;
+        border: 1px solid black;
+        line-height: 26px;
+        font-size: 22px;
+        font-family: Arial;
+        border-collapse: collapse;
+        border-spacing: 0px;
+    }
+
+    td {
+        border-top: 1px solid black;
+        padding: 5px;
+        vertical-align: top;
+        border-space: 0px;
+    }
+
+    td.typeclass {
+        vertical-align: middle;
+    }
+
+    .main_menu {
+        height: 100%;
+        width: 70%;
+        float: left;
+        padding: 30px 20px 30px 40px;
+        border-right: 1px solid black;
+    }
+
+    .link_menu {
+        height: 100%;
+        width: 15%;
+        float: left;
+        padding: 30px 20px 30px 40px;
+    }
+
+    .checkbox_td {
+        padding-top: 10px;
+        width: 5%;
+    }
+
+    .firstlabel, .secondlabel {
+        display: inline-block;
+        padding: 0 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid black;
+        margin-top: 5px;
+    }
+
+    .firstlabel {
+        background: lightgray;
+    }
+
+    .secondlabel {
+        background: gray;
+    }
+
+    .newtask {
+        float: right;
+        font-size: 16px;
+        font-family: Arial;
+    }
+
+</style>
+<div class='main_menu'>
+    <div class="newtask">
+        <%= image_tag "cross.png", :plugin => 'redmine_warehouse' %><a href="#"> Новая задача</a>
+    </div>
+    <h1>Задачи</h1>
+
+    <div>
+        <table>
+            <tbody>
+            <tr>
+                <td class='checkbox_td'><input checked="checked" type='checkbox'></td>
+                <td><strong>Перезвонить по важному вопросу</strong><br>
+                    Сегодня, 14:00<br>
+                    <span class='firstlabel'>Метка 1</span>
+                    <span class='secondlabel'>Вторая метка</span>
+                </td>
+                <td class="typeclass">Тип задачи</td>
+                <td><%= image_tag "face.png", :plugin => 'redmine_warehouse' %></td>
+                <td><strong>Иванов Иван Иванович</strong><br>
+                    ООО "Ромашка"<br></td>
+            </tr>
+            <tr>
+                <td class='checkbox_td'><input checked="checked" type='checkbox'></td>
+                <td><strong>Перезвонить по важному вопросу</strong><br>
+                    Сегодня, 14:00<br>
+                    <span class='firstlabel'>Метка 1</span>
+                    <span class='secondlabel'>Вторая метка</span>
+                </td>
+                <td class="typeclass">Тип задачи</td>
+                <td><%= image_tag "face.png", :plugin => 'redmine_warehouse' %></td>
+                <td><strong>Иванов Иван Иванович</strong><br>
+                    ООО "Ромашка"<br></td>
+            </tr>
+            <tr>
+                <td class='checkbox_td'><input checked="checked" type='checkbox'></td>
+                <td><strong>Перезвонить по важному вопросу</strong><br>
+                    Сегодня, 14:00<br>
+                    <span class='firstlabel'>Метка 1</span>
+                    <span class='secondlabel'>Вторая метка</span>
+                </td>
+                <td class="typeclass">Тип задачи</td>
+                <td><%= image_tag "face.png", :plugin => 'redmine_warehouse' %></td>
+                <td><strong>Иванов Иван Иванович</strong><br>
+                    ООО "Ромашка"<br></td>
+            </tr>
+            <tr>
+                <td class='checkbox_td'><input checked="checked" type='checkbox'></td>
+                <td><strong>Перезвонить по важному вопросу</strong><br>
+                    Сегодня, 14:00<br>
+                    <span class='firstlabel'>Метка 1</span>
+                    <span class='secondlabel'>Вторая метка</span>
+                </td>
+                <td class="typeclass">Тип задачи</td>
+                <td><%= image_tag "face.png", :plugin => 'redmine_warehouse' %></td>
+                <td><strong>Иванов Иван Иванович</strong><br>
+                    ООО "Ромашка"<br></td>
+            </tr>
+            <tr>
+                <td class='checkbox_td'><input checked="checked" type='checkbox'></td>
+                <td><strong>Перезвонить по важному вопросу</strong><br>
+                    Сегодня, 14:00<br>
+                    <span class='firstlabel'>Метка 1</span>
+                    <span class='secondlabel'>Вторая метка</span>
+                </td>
+                <td class="typeclass">Тип задачи</td>
+                <td><%= image_tag "face.png", :plugin => 'redmine_warehouse' %></td>
+                <td><strong>Иванов Иван Иванович</strong><br>
+                    ООО "Ромашка"<br></td>
+            </tr>
+            <tr>
+                <td class='checkbox_td'><input checked="checked" type='checkbox'></td>
+                <td><strong>Перезвонить по важному вопросу</strong><br>
+                    Сегодня, 14:00<br>
+                    <span class='firstlabel'>Метка 1</span>
+                    <span class='secondlabel'>Вторая метка</span>
+                </td>
+                <td class="typeclass">Тип задачи</td>
+                <td><%= image_tag "face.png", :plugin => 'redmine_warehouse' %></td>
+                <td><strong>Иванов Иван Иванович</strong><br>
+                    ООО "Ромашка"<br></td>
+            </tr>
+            <tr>
+                <td class='checkbox_td'><input checked="checked" type='checkbox'></td>
+                <td><strong>Перезвонить по важному вопросу</strong><br>
+                    Сегодня, 14:00<br>
+                    <span class='firstlabel'>Метка 1</span>
+                    <span class='secondlabel'>Вторая метка</span>
+                </td>
+                <td class="typeclass">Тип задачи</td>
+                <td><%= image_tag "face.png", :plugin => 'redmine_warehouse' %></td>
+                <td><strong>Иванов Иван Иванович</strong><br>
+                    ООО "Ромашка"<br></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class='link_menu'>
+    <h3>Heading 3</h3>
+    <a href="#">This is a text link. A text link</a><br>
+    <a href="#">This is a text link. A text link</a><br>
+    <a href="#">This is a text link. A text link</a><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+ru:
+  field_merchandise_name: Товар
+  field_merchandise_value: Цена
+  field_merchandise_count: Количество
+  field_merchandise_issue_id: Номер задачи
+  field_issue_selector: Выберите задачу
+  label_warehouse: Склад
+  label_merchandises_plural: Товары
+  label_merchandise_new: Новый товар
+  label_merchandise_edit: Редактировать товар
+  label_merchandise_show: Показать товар
+  label_merchandise: Название товара
+  label_related_merchandises: Связанные товары
+  merchandise_create_notice: Товар был успешно создан
+  merchandise_update_notice: Товар был успешно обновлен
+  permission_view_merchandises: Просмотр товара
+  permission_edit_merchandises: Редактирование товара
+  permission_create_merchandises: Создание товара
+  permission_delete_merchandises: Удаление товара
+  project_module_warehouse: Склад
+  test_static_page: Тестовая статическая страница

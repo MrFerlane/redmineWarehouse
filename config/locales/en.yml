@@ -1,0 +1,21 @@
+en:
+  field_merchandise_name: Merchandise
+  field_merchandise_value: Value
+  field_merchandise_count: Count
+  field_merchandise_issue_id: Issue ID
+  field_issue_selector: Please select issue
+  label_warehouse: Warehouse
+  label_merchandises_plural: Merchandises
+  label_merchandise_new: New merchandise
+  label_merchandise_edit: Edit merchandise
+  label_merchandise_show: Show merchandise
+  label_merchandise: Merchandise name
+  label_related_merchandises: Related merchandises
+  merchandise_create_notice: Merchandise was successfully created
+  merchandise_update_notice: Merchandise was successfully updated
+  test_static_page: Test Static Page
+
+
+
+
+

@@ -1,0 +1,29 @@
+<%= error_messages_for 'merchandise' %>
+
+<div id="merchandise_form">
+    <fieldset class="box tabular">
+        <legend><%= l(:label_information_plural) %></legend>
+        <p>
+            <%= f.label l(:field_merchandise_name) %>
+            <%= f.text_field :name, :required => true, :size => 25 %>
+        </p>
+
+        <p>
+            <%= f.label l(:field_merchandise_value) %>
+            <%= f.number_field :value, :required => true %>
+        </p>
+
+        <p>
+            <%= f.label l(:field_merchandise_count) %>
+            <%= f.number_field :count, :required => true %>
+        </p>
+
+        <p>
+            <%= f.label l(:field_issue) %>
+            <%= f.collection_select :issue_id, @issues, :id, :subject, :prompt => l(:field_issue_selector) %>
+        </p>
+
+    </fieldset>
+</div>
+<div style="clear:left;"></div>
+
